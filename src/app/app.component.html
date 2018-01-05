@@ -1,6 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<mat-toolbar>
+<mat-toolbar class="mat-toolbar">
   <span>{{ title }}</span>
 </mat-toolbar>
 
-<app-main-activity></app-main-activity>
+<div style="margin: 24px;">
+  <router-outlet>
+  </router-outlet>
+</div>
+
+<div style="margin-top: 100px; text-align: center; font-family: sans-serif;">
+  <label style="">&copy; Christian Sohns 2018; All rights reserved!</label>
+</div>
+
+<br><br><br>

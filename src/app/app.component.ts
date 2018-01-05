@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Homework';
+  public title = 'Homework';
+
+  public isHome(): boolean {
+    return false;
+  }
+
 }
